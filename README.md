@@ -1,2 +1,2 @@
-# my_personal_website
+# my-first-project
 A repository for my first website
