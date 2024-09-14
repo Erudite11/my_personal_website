@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 10px;
+    background: #f1f1f1;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    text-align: center;
+    background: white;
+    
+  }
+  /* Styling the header */
+  #h1 {
+    background-color: #ba0606;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Styling the home topnav link */
+ 
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a:active {
+    background-color: #ba0606;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+  /* styling the ERUDITE TECH */
+  #ERUDITE {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-decoration: none;
+  }
+  #CEO {
+    font-family: fantasy; opacity: 96%;
+  }
+  
+
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    font-style: italic;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  } 
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    background: #383434;
+    text-align: center;
+    margin-top: 20px;
+    align-self:baseline;
+  }
+
+  /* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+    width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+/* Styling the icon-links */
+  #socials {
+    margin-left: 5%;
+  }
+
+  #socials:hover {
+    background-color: #978888;
+  }
+
+/* Styling the text area  */
+#area {
+  border-width: 2px solid rgb(27, 11, 11); 
+  border-radius: 2%;
+  resize: none;
+  margin-top: -3%;
+  }
+/* Styling the input button */
+  #submit {
+  border-bottom: 20;
+  border-color: rgb(35, 29, 29);
+  color: #3b3434;
+}
+
+#message{
+  border-width: 2px;
+      border-style: solid;
+      border-color: rgb(27, 11, 11);
+      border-radius: 2%;
+      resize: none; margin-top: 1%;
+}
+
+
+ /* Styling the footer home links */
+ #fmlinks {
+  color: rgb(13, 13, 14);
+  text-decoration: none;
+ }
+
+ #fmlinks:hover {
+  background-color: #aaa;
+ }
+
+ #Language{
+  text-decoration: none;
+  color: #000000;
+ }
+ #Language:hover {
+background-color: #aaa;
+ }
+
+#copywright {
+  margin-bottom: -0.5%;
+  align-items: center;
+}
+#ARR {
+  opacity: 88%;
+}
+
+#search{
+width: 200px;
+height: 40px;
+box-sizing: border-box;
+border-radius: 80px;
+font-size: 16px;
+background-color: white;
+background-image: url('search.jpg');
+background-size: 20px;
+background-position: 10px;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px ;
+transition: width 0.4s ease-in-out;
+margin-top: 0.4%;
+margin-left: -10%;
+}
+#search:focus {
+ width: 50%;    
+}
